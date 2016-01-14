@@ -16,17 +16,23 @@ Using this plugin we can easily add notifications/messages at the top / bottom /
 
 ## Installation
 
-* Upload 'meassagetrigger' folder  to the '/wp-content/plugins/'' directory
-* Activate the plugin through the \'Plugins\' menu in WordPress
+* Upload 'meassage-trigger' folder  to the '/wp-content/plugins/' directory
+* Activate the plugin through the 'Plugins' menu in WordPress
 * Go to Settings->Message Trigger and set the messages
 * Go to specific post you will separate box for trigger message
 
 
+## To Do
+
+* Add tickering or scrolling for messages as marquee is obselete.
+* Write a post on how to style
+* Fix -- Looks quirky with Twenty Sixteen theme enabled
+
 ## Changelog
-1.0 Initial Commit
+
+- 1.0 Initial Commit
 
 1.1 
 - Restructuring of the code
 - Add id to the information
 - Don't display the message if it is empty
-- The message is translate by shortcode

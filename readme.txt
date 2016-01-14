@@ -13,8 +13,8 @@ Using this plugin we can easily add notifications/messages at the top / bottom /
 
 == Installation ==
 
-1. Upload 'meassagetrigger' folder  to the '/wp-content/plugins/'' directory
-2. Activate the plugin through the \'Plugins\' menu in WordPress
+1. Upload 'meassage-trigger' folder  to the '/wp-content/plugins/' directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to Settings->Message Trigger and set the messages
 4. Go to specific post you will separate box for trigger message
 
@@ -24,7 +24,5 @@ Using this plugin we can easily add notifications/messages at the top / bottom /
 
 1.1 
 - Restructuring of the code
-- Change the default <html> tag
 - Add id to the information
 - Don't display the message if it is empty
-- The message is translate by shortcode
