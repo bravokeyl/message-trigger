@@ -1,12 +1,12 @@
 Message Trigger
 ===========
 
-Contributors: bravokeyl, madvic
-Requires at least: 3.6
-Tested up to: 4.4.2-alpha
-Stable tag: 1.1
-License: GPL V2 or Later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Contributors: bravokeyl, madvic
+* Requires at least: 3.6
+* Tested up to: 4.4.2-alpha
+* Stable tag: 1.1
+* License: GPL V2 or Later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Using this plugin we can easily add notifications/messages at the top / bottom / after content section of the post.
 
@@ -16,10 +16,10 @@ Using this plugin we can easily add notifications/messages at the top / bottom /
 
 ## Installation
 
-1. Upload 'meassagetrigger' folder  to the '/wp-content/plugins/'' directory
-2. Activate the plugin through the \'Plugins\' menu in WordPress
-3. Go to Settings->Message Trigger and set the messages
-4. Go to specific post you will separate box for trigger message
+* Upload 'meassagetrigger' folder  to the '/wp-content/plugins/'' directory
+* Activate the plugin through the \'Plugins\' menu in WordPress
+* Go to Settings->Message Trigger and set the messages
+* Go to specific post you will separate box for trigger message
 
 
 ## Changelog

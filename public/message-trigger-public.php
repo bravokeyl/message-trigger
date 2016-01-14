@@ -20,7 +20,6 @@ function mt_add_message($content){
 	return $output;
 }
 
-
 add_action('wp_head','mt_header');
 add_action('wp_footer','mt_footer');
 
