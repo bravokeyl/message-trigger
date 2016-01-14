@@ -29,7 +29,7 @@ function mt_header(){
 	$mt_options = get_option('mt_plugin_options');
 	$mt_option_value = $mt_options['mt_head_message'];
 	if( !empty($mt_option_value ) ){
-		echo '<div id="message-trigger-header" class="mt-notification">'.$mt_option_value.'</div>';
+		echo '<div id="mt_header" class="mt_header" >'.$mt_option_value.'</div>';
 	}
 }
 
@@ -37,7 +37,7 @@ function mt_footer(){
 	$mt_options = get_option('mt_plugin_options');
 	$mt_option_value = $mt_options['mt_foot_message'];
 	if( !empty($mt_option_value ) ){
-		echo '<div id="message-trigger-footer" class="mt-notification">'.$mt_option_value.'</div>';
+		echo '<div id="mt_footer" class="mt_footer">'.$mt_option_value.'</div>';
 	}
 }
 
