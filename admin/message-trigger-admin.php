@@ -1,17 +1,12 @@
 <?php
  /**
+ * @since      1.1
  * @package    message-trigger
  * @subpackage message-trigger/admin
+ * @author     bravokeyl, madvic
  */
 	add_action( 'load-post.php', 'mt_init' );
 	add_action( 'load-post-new.php', 'mt_init' );
-	add_action( 'admin_enqueue_scripts', 'stylesheet_for_admin' , 99);
-
-    function stylesheet_for_admin() {
-		if( isset($_GET['page']) && 'message_trigger' == $_GET['page'] ){
-			wp_enqueue_style( 'message-trigger-admin', plugins_url('admin.css', __FILE__) );
-    	}
-    }
 
 	function mt_init() {
 		new MT_MessageTrigger();

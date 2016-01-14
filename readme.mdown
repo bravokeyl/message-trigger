@@ -28,3 +28,4 @@ Using this plugin we can easily add notifications/messages at the top / bottom /
 - Add id to the information
 - Don't display the message if it is empty
 - The message is translate by shortcode
+- Add A switch button for activate or not the feature

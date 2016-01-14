@@ -5,7 +5,7 @@
  * @since      1.0
  * @package    message-trigger
  * @subpackage message-trigger/admin
- * @author     Bravokeyl, madvic
+ * @author     bravokeyl, madvic
  */
 	class MT_MessageTrigger {
 

@@ -1,8 +1,10 @@
 <?php
 /**
  * The front-end fonctionnality
+ * @since      1.1
  * @package    message-trigger
  * @subpackage message-trigger/public
+ * @author     bravokeyl, madvic
  */
 
 $mt_options = get_option('mt_plugin_options');
